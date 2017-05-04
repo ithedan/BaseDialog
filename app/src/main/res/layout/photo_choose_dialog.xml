@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:gravity="bottom"
+    android:orientation="vertical"
+   >
+    <Button
+        android:id="@+id/but_choose_one"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_choose_none_radius"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="我的相册"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/but_choose_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_choose_none_radius"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="拍照"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/but_choose_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/photo_choose_none_radius"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="取消"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+</LinearLayout>
